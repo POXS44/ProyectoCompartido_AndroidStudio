@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".AuthActivity">
 
+
     <LinearLayout
+        android:id="@+id/authLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -67,6 +69,15 @@
                 android:backgroundTint="@color/colorPrimaryDark"
                 android:text="Acceder" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/googleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Google"
+            android:textColor="@color/colorPrimaryDark" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

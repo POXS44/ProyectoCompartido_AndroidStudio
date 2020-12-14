@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MiApp2.0</string>
+    <string name="prefs_file">com.poxs44.miapp20.PREFERENCE_FILE_KEY</string>
+
 </resources>

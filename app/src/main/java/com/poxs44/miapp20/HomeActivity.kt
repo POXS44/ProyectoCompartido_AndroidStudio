@@ -33,8 +33,9 @@ class HomeActivity : AppCompatActivity() {
 
         title = "Inicio"
 
-        emailTextView = findViewById(R.id.emailEditText)
+        emailTextView = findViewById(R.id.emailTextView)
         providerTextView = findViewById(R.id.providerTextView)
+        closeButton = findViewById(R.id.closeButton)
 
         emailTextView.text = email
         providerTextView.text = provider

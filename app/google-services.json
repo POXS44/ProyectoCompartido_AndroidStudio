@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440745928416",
+    "project_id": "examenproyectocompartido",
+    "storage_bucket": "examenproyectocompartido.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440745928416:android:2603260bbf623e3e9e9285",
+        "android_client_info": {
+          "package_name": "com.poxs44.miapp20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440745928416-1plc0bo74d5893us3vjmsnpdu14v9he2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYhSXmaMlsDtgVUEN3gJCHzcfIvJw7HWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440745928416-1plc0bo74d5893us3vjmsnpdu14v9he2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

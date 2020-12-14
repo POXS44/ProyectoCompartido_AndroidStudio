@@ -30,8 +30,6 @@ class AuthActivity : AppCompatActivity() {
     bundle.putString("message","Integración de Firebase completa")
         analytics.logEvent("InitScreen", bundle)
 
-
-
         //Setup
         setup ()
     }
@@ -78,8 +76,8 @@ class AuthActivity : AppCompatActivity() {
     private fun showAlert(){
 
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("Error")
-        builder.setMessage("Se ha producido un error autenticando al Usuario")
+        builder.setTitle("Error de Autenticacion")
+        builder.setMessage("Usuario y contraseña ya registrados")
         builder.setPositiveButton("Aceptar",null)
         val dialog: AlertDialog = builder.create()
         dialog.show()
